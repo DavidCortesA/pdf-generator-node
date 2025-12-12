@@ -1,0 +1,31 @@
+<!-- invoice.html -->
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      color: #333;
+    }
+    h1 {
+      color: #4f46e5;
+      margin-bottom: 20px;
+    }
+    .section {
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Factura</h1>
+
+  <div class="section">
+    <p><strong>Cliente:</strong> {{customer}}</p>
+    <p><strong>Fecha:</strong> {{date}}</p>
+    <p><strong>Total:</strong> ${{total}}</p>
+  </div>
+</body>
+</html>

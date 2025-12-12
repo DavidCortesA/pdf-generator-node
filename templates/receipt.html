@@ -1,0 +1,26 @@
+<!-- receipt.html -->
+<html>
+<head>
+  <style>
+    body { font-family: Arial; padding: 30px; color: #222; }
+    h2, h4 { text-align: center; margin-bottom: 20px; }
+    .line { border-bottom: 1px dashed #999; margin: 10px 0; }
+    table { width: 100%; margin-top: 15px; border-collapse: collapse; }
+    td { padding: 4px 0;}
+    .right { text-align: right; }
+  </style>
+</head>
+<body>
+  <h2>Recibo de Pago</h2>
+  <h4>{{businessName}}</h4>
+  <p><strong>Fecha:</strong> {{date}}</p>
+  <div class="line"></div>
+  <p><strong>Recibido de:</strong> {{customer}}</p>
+  <table>
+    {{rows}}
+  </table>
+  <div class="line"></div>
+  <p class="right"><strong>Total:</strong> ${{total}}</p>
+  <h2>{{thanksMessage}}</h2>
+</body>
+</html>

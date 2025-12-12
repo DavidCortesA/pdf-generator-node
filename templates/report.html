@@ -1,0 +1,42 @@
+<!-- report.html -->
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 40px;
+    }
+    h1 {
+      color: #2563eb;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+  <h1>Reporte</h1>
+  <p><strong>Título:</strong> {{title}}</p>
+  <p><strong>Fecha:</strong> {{date}}</p>
+
+  <table>
+    <tr>
+      <th>Concepto</th>
+      <th>Cantidad</th>
+      <th>Total</th>
+    </tr>
+    {{rows}}
+  </table>
+</body>
+</html>

@@ -1,0 +1,1 @@
+export { generatePDF } from './pdfGenerator.js';

@@ -1,0 +1,26 @@
+{
+  "name": "pdf-generator-node",
+  "version": "1.0.0",
+  "description": "Generador de PDFs con Node.js y Puppeteer usando templates HTML personalizables.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node examples/generateTicket.js",
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests yet' && exit 0"
+  },
+  "keywords": [
+    "pdf",
+    "puppeteer",
+    "generator",
+    "html-to-pdf",
+    "nodejs",
+    "templates",
+    "automation"
+  ],
+  "author": "David Cortez",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
